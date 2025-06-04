@@ -11,7 +11,8 @@ def new_pokemon(pokemon: PokemonModel):
             name: $name,
             height: $height,
             weight: $weight,
-            types: $types
+            types: $types,
+            sprites: $sprites
         }
     )
     RETURN p
